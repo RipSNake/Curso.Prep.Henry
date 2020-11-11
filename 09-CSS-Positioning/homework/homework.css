@@ -80,3 +80,37 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 	flex-grow: 2;
 	height: auto;
 }
+
+/* Ejercicio 7 CSS-GRID */
+/*
+#ejercicioSiete {
+	display: grid;
+	grid-template: repeat(4, 25%) / 20% 1.5fr 3fr 50px;
+}
+#elementoUno {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	width: initial;
+	grid-row: 2 / 3;
+}
+
+#elementoDos {
+	grid-column: 2 / 4;
+	grid-row: 3 / 4;
+	width: auto;
+	height: auto;
+}
+
+#elementoTres {
+	grid-column: 1 / 2;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	heigth: inherit;
+	width: auto; // So that it doesn´t occupies more space than is needed
+}
+
+#elementoCuatro {
+	grid-area: 1 / 3 / 2 / 5;
+}
+
+*/
